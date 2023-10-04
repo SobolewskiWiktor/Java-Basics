@@ -15,7 +15,7 @@ public class Main {
 
         System.out.println("C "+myBicycle.cadence+" G "+myBicycle.gear+" S "+myBicycle.speed);*/
 
-        tv television = new tv("Samusng Led", 10); 
+        tv television = new tv("Samusng Led", 10, "ABC12309847"); 
         
         television.setState(1);
         television.changeChannel("BBC");
