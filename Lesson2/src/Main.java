@@ -48,11 +48,25 @@ public class Main {
 
                switch(choice)
                {
-                   case 1: { my.heron(); break;}
-                   case 2: { }
+                   case 1:
+                       my.heron();
+                       break;
+                   case 2:
+                       double circuit = a + b + c ;
+                       System.out.print("Circuit: "+ circuit);
+                       break;
+                   case 3:
+                       my.chechType();
+                       break;
+                   case 4:
+                       return;
                }
 
            }
+       }
+       else
+       {
+           System.err.print("You cannot build triangle with this vaules");
        }
     }
 }

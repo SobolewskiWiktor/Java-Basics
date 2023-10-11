@@ -15,7 +15,7 @@ public class Triangle {
         double p = (a + b + c) / 2;
 
         double heron = Math.sqrt(p*(p-a)*(p-b)*(p-c));
-        System.out.print("area: "+heron+"\n")
+        System.out.print("Field: "+heron+"\n");
     }
     
     public void chechType()
