@@ -11,5 +11,17 @@ public class Main {
          System.out.print("\n");
          //System.out.printf("Hello and welcome!");
 
+         //rowerG.speedUp(2);
+         //rowerG.speedUp(2);
+         //rowerG.speedUp(2);
+         //rowerG.speedUp(2);
+         //rowerG.speedUp(2);
+         //rowerG.speedUp(2);
+
+         for(int i=0; i<20; i++)
+         {
+             rowerG.run();
+         }
+         rowerG.stop();
         }
     }
