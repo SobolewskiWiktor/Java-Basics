@@ -6,4 +6,13 @@ public class Patient extends Person{
         super(newName, newPesel);
         this.patientID = newID;
     }
+
+    public void print()
+    {
+        System.out.print("Hi \n");
+        System.out.print("My name is: " + name);
+        System.out.print("I'm a patient");
+
+
+    }
 }
