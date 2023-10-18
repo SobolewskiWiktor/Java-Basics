@@ -4,6 +4,6 @@ public class MountainBike  extends Bicycle{
     public MountainBike(int startCadence, int startSpeed, int startGear, int startHeight)
     {
         super(startCadence, startSpeed, startGear);
-        this.seatHeight = startHeight; 
+        this.seatHeight = startHeight;
     }
 }
