@@ -12,7 +12,5 @@ public class Patient extends Person{
         System.out.print("Hi \n");
         System.out.print("My name is: " + name);
         System.out.print("I'm a patient");
-
-
     }
 }
