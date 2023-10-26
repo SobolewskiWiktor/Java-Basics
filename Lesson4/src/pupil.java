@@ -19,7 +19,7 @@ public class pupil {
     {
         for(int i=0; i<this.numberOfMarks; i++)
         {
-            System.out.println(Marks[i]);
+            System.out.println("Mark "+i+" / "+this.numberOfMarks +" "+Marks[i]);
         }
     }
 
@@ -35,7 +35,7 @@ public class pupil {
         }
     }
 
-    public void average (){
+    public void avarage (){
         int coutAverage = 0;
         int sumMarks =0;
         for(int i=0; i<this.numberOfMarks; i++)
