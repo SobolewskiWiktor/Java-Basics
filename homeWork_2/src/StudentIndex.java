@@ -31,17 +31,25 @@ public class StudentIndex  {
 
     public void printMarks()
     {
-        System.out.print("Student: "+ surname);
+        System.out.print("Student: "+ surname + "\n");
 
         for(int i=0; i<numberOfSubjects; i++) {
-            if (marks[i] == 2) {
-                System.out.print(" niedostateczny ");
-            } else if (marks[i] == 3) {
-                System.out.print(" dostateczny ");
-            } else if (marks[i] == 4) {
-                System.out.print(" dobry ");
-            } else if (marks[i] == 5) {
-                System.out.print(" bardzo dobry ");
+            System.out.print("Subject nr: "+i+" : ");
+            switch(marks[i])
+            {
+                case 2:
+                    System.out.print("Niedostateczny \n");
+                    break;
+                case 3:
+                    System.out.print("Dostateczny \n");
+                    break;
+                case 4:
+                    System.out.print("Dobry \n");
+                    break;
+                case 5:
+                    System.out.print("Bardzo Dobry \n");
+                    break;
+
             }
         }
     }

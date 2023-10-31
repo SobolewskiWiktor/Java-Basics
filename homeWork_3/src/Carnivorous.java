@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Carnivorous {
+public interface Carnivorous {
+    public void hunt ();
 }
