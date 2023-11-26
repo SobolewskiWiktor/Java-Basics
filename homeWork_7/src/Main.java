@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.HashMap;
 import java.util.Map;
 
@@ -27,5 +28,11 @@ public class Main {
        maciek.checkMeal("Krupnik");
        maciek.checkMeal("Buraki");
 
+=======
+
+public class Main {
+    public static void main(String[] args) {
+       System.out.printf("Hello World");
+>>>>>>> 28e9f209ec82b298f7269a6aa82df4444902b809
     }
 }
