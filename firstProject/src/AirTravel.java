@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class AirTravel {
+public class AirTravel {
 }
