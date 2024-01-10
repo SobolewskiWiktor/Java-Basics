@@ -34,7 +34,7 @@ public class CreateDirectoryStructure {
 
             Path dir31 = dir3.resolve("Dir31");
             Files.createDirectories(dir31);
-            
+
             Files.createFile(dir31.resolve("File5.txt"));
 
         } catch (FileAlreadyExistsException e) {
